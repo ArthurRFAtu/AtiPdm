@@ -1,0 +1,17 @@
+
+import 'dart:io';
+import 'dart:math'; 
+
+void main() {
+  print("Me informe um numero");
+  int x1 = int.parse(stdin.readLineSync()!);
+  print("Me informe um numero");
+  int x2 =int.parse(stdin.readLineSync()!);
+  print("Me informe um numero");
+  int y1 =int.parse(stdin.readLineSync()!);
+  print("Me informe um numero");
+  int y2 = int.parse(stdin.readLineSync()!);           
+  double d1 = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); 
+  print(d1);
+}                   
+

@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main() {
+print('Digite seu primeiro numero:');
+  va = double.parse(stdin.readLineSync()!);
+  
+print('Digite seu segundo numero:');
+  vb = double.parse(stdin.readLineSync()!);
+  
+print('Digite seu terceiro numero:');
+  vc = double.parse(stdin.readLineSync()!);
+
+  vr = (va +vb)*(va +vb);
+  vs= (varb+vc)*(vb+vc);
+
+  vd= ((vr+vs)/2);
+
+    print('Seu resultado é igual a: $vd');
+}

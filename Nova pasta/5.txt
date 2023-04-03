@@ -1,0 +1,21 @@
+import 'dart:io';
+import 'dart:math';
+
+main(){
+
+
+double custofabr;
+  double porcdistr=0.28;
+  double porcimpos=0.45;
+  double custcons;
+  
+print("Informe o custo de fabrica:");
+custofabr= double.parse(stdin.readLineSync());  
+  
+ custcons= (custofabr * (porcdistr+porcimpos));
+ custcons= (custofabr+custcons); 
+
+  print('O valor de custo pro consumidor e: $custcons');
+  
+  
+}

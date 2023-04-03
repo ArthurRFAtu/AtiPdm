@@ -1,0 +1,22 @@
+import 'dart:io';
+import 'dart:math';
+
+main(){
+
+
+double segundos;
+  double minutos;
+  double horas;
+  
+print("Informe o tempo em segundos:");
+segundos= double.parse(stdin.readLineSync());  
+  
+  minutos= (segundos/60);
+  print('Tempo em minutos: $minutos.');
+
+  horas=(segundos/3600);
+  print('Tempo em horas: $horas.');
+  print('Tempo em segundos: $segundos.');
+  
+  
+}
